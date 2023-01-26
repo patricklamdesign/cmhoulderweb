@@ -1,0 +1,149 @@
+/* base */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;  
+  --dark-color: #002240;  
+  --light-color: #f4f4f4;  
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+  /*  */
+  --logo-color:#00aeef;
+  --logo-text-color: #004B85;
+  --logo-banner: #A36B3E;
+  --background-gray:  #f2f2f2;
+  --background-professional: #F4FBFD;
+  --background-about: #e6f3f7 ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: #000; 
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* button */
+.btn {
+  display: inline-block;    /* can set width and height */
+  padding: 10px;
+  cursor: pointer;
+  background: var(--logo-text-color);
+  color: #fff;
+  border: 2px #fff solid;
+  text-align: center;
+  width: 200px;
+}
+
+.btn:hover {
+  background: var(--logo-color);
+  border: 2px var(--logo-color) solid;
+  transition-duration: 0.5s;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
+
+/* banner for each page */
+.banner-container {
+  height: 300px;
+  background: url('../img/about/istockphoto-1251678082-1024x1024.jpg') no-repeat center center/cover;
+  color: #000;
+}
+
+.banner-grid {
+  display: flex;
+}
+
+.banner-text h1 {
+  margin: 100px;
+  font-size: 80px;
+}
+
+/* popup */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.popup .content ul li {
+  text-align: left;
+  margin-top: 10px;
+}
+
+

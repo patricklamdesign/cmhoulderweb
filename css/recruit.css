@@ -1,0 +1,271 @@
+/* banner  */
+.recruit-banner-container {
+  height: 300px;
+  background: url('../img/recruit/istockphoto-1343885102-1024x1024.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+.recruit-banner-grid {
+  display: grid;
+}
+
+.recruit-banner-text {
+  width: 600px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 50px;
+  background-color: var(--logo-text-color);
+}
+
+.recruit-banner-text h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+/*  */
+.top-recruit-container {
+  height: 300px;
+  background: url('../img/recruit/istockphoto-134433031-1024x1024.jpg') no-repeat center center/cover;
+  color: #000;
+}
+
+.top-recruit-grid {
+  display: flex;
+}
+
+.top-recruit-text h1 {
+  margin: 100px;
+  font-size: 50px;
+}
+
+.recruit-banner-grid {
+  position: relative;
+}
+
+.recruit-page-card {
+  position: absolute;
+  background-color: #fff;
+  width: 1300px;
+  padding: 30px 550px;
+  color: #333;
+  font-size: 50px;
+  margin-top: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recruit-page-card-inner {
+  border-bottom: 5px #FF532B solid;
+  font-weight: bold;
+}
+
+.recruit-page-container-1 {
+  margin: 40px auto;
+  margin-top: 90px;
+  width: 70%;
+  height: 550px;
+  position: relative;
+  background: url('../img/recruit/istockphoto-134433031-1024x1024.jpg') no-repeat center center / cover;
+}
+
+.recruit-page-card-1 {
+  position: absolute;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 40px;
+  padding: 20px;
+}
+
+.recruit-page-card-1 p {
+  margin-top: 10px;
+}
+
+.recruit-page-card-1 ul {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  list-style-type: square;
+}
+
+
+/* job lists */
+.recruit-page-container-2 {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+
+.recruit-page-grid-1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.recruit-page-grid-1 h1 {
+  font-size: 30px;
+}
+
+.recruit-page-grid-2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.recruit-page-card-2 {
+  color: #333;
+  width: 250px;
+  height: 250px;
+  border: 1px #000 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recruit-page-card-2 h1:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.recruit-page-card-2:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* form */
+.recruit-page-grid-4 {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px #000 solid;
+}
+
+.bottom-recruit-card {
+  background-color: #fff;
+  color: #333;
+  height: auto;
+  font-size: 24px;
+  padding: 30px 100px;
+}
+
+.bottom-recruit-card img {
+  width: 60px;
+  float: right;
+}
+
+.bottom-recruit-form .form-control {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.bottom-recruit-form .form-control label {
+  font-size: 15px;
+}
+
+
+.bottom-recruit-form input[type='text'],
+.bottom-recruit-form input[type='email'] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;                          
+  padding: 3px;
+  font-size: 16px;
+}
+
+.bottom-recruit-form .btn-recruit {
+  font-size: 18px;
+}
+
+.bottom-recruit-form input:focus {
+  outline: none;
+}
+
+
+
+/* media */
+@media(max-width: 960px) { 
+
+  
+}
+
+
+@media(max-width: 700px) { 
+
+  .recruit-banner-text {
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+    margin: 100px auto;
+  }
+  
+  .recruit-banner-text h1 {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  .recruit-page-container-1 {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 550px;
+  }
+  
+  .recruit-page-card-1 {
+    font-size: 17px;
+    margin: 5px;
+  }
+
+
+  .recruit-page-card {
+    width: 80%;
+    padding: 1px 1px;
+  }
+
+  .recruit-page-card-1 ul {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 30px;
+    list-style-type: square;
+  }
+  
+  /*  */
+  .recruit-page-container-2 {
+    width: 90%;
+  }
+  
+  .recruit-page-grid-1 {
+    flex-direction: column;
+  }
+  
+  .recruit-page-grid-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+
+  .recruit-page-card-2 {
+    width: 350px;
+    margin-bottom: 15px;
+  }
+
+  .recruit-page-grid-4 {
+    width: 90%;
+  }
+
+  .bottom-recruit-card {
+    padding: 30px;
+  }
+  
+
+}
