@@ -25,3 +25,5 @@ function removeShow() {
 tabItems.forEach(item => {
 	item.addEventListener('click', selectItem);
 });
+
+document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.navbar-nav-right').classList.toggle('showmenu'));

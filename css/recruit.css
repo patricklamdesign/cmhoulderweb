@@ -47,8 +47,8 @@
 .recruit-page-card {
   position: absolute;
   background-color: #fff;
-  width: 1300px;
-  padding: 30px 550px;
+  width: 400px;
+  padding: 30px 100px;
   color: #333;
   font-size: 50px;
   margin-top: 230px;
@@ -58,12 +58,15 @@
   right: 0;
   text-align: center;
   align-items: center;
+  justify-content: center;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .recruit-page-card-inner {
   border-bottom: 5px #FF532B solid;
   font-weight: bold;
+  text-align: center;
+  align-items: center;
 }
 
 .recruit-page-container-1 {
@@ -118,6 +121,7 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
+  margin: 0px auto;
   margin-bottom: 40px;
 }
 
@@ -133,6 +137,7 @@
 
 .recruit-page-card-2 h1:hover {
   color: red;
+  
   font-weight: bold;
 }
 
@@ -191,11 +196,19 @@
 }
 
 
-
 /* media */
-@media(max-width: 960px) { 
 
+@media(max-width: 1180px),
+@media(max-width: 820px) {
+
+  .recruit-page-container-1 {
+    height: 750px;
+  }
   
+  .recruit-page-card-2 {
+    font-size: 10px;
+    margin-left: 10px;
+  }
 }
 
 
@@ -217,7 +230,7 @@
     margin: 10px auto;
     margin-top: 20px;
     width: 90%;
-    height: 550px;
+    height: 600px;
   }
   
   .recruit-page-card-1 {
@@ -225,9 +238,8 @@
     margin: 5px;
   }
 
-
   .recruit-page-card {
-    width: 80%;
+    width: 70%;
     padding: 1px 1px;
   }
 
@@ -256,6 +268,7 @@
 
   .recruit-page-card-2 {
     width: 350px;
+    font-size: 16px;
     margin-bottom: 15px;
   }
 
@@ -266,6 +279,5 @@
   .bottom-recruit-card {
     padding: 30px;
   }
-  
 
 }

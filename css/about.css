@@ -130,8 +130,12 @@
   font-size: 20px;
 }
 
+.tab-content-text-p {
+  margin-left: 20px;
+}
+
 .tab-content-text-p p {
-  margin-top: 10px;
+  margin-top: 5px;
   align-items: center;
   justify-content: center;
 }
@@ -161,16 +165,14 @@
   #tab-2-content .tab-2-content-inner,
   #tab-3-content .tab-3-content-inner,
   #tab-4-content .tab-4-content-inner {
-  width: 90%;
-  padding: 10px;
-  grid-template-columns:  1fr;
+    width: 90%;
+    padding: 10px;
+    grid-template-columns:  1fr;
+  }
 
-}
-
-.tab-content-text h1 {
-  margin-bottom: 10px;
-}
-
+  .tab-content-text h1 {
+    margin-bottom: 10px;
+  }
 
 }
 

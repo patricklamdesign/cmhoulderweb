@@ -70,6 +70,11 @@ img {
   border: 1px #fff solid;
 }
 
+.news-btn:hover i {
+  margin-left: 5px;
+  color: red;
+  transition-duration: 0.5s;
+}
 
 /* banner for each page */
 .banner-container {
@@ -147,3 +152,9 @@ img {
 }
 
 
+@media(max-width: 700px) { 
+  .popup {
+    width: 80%;
+  }
+
+}
