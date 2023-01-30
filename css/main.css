@@ -160,7 +160,6 @@
   margin-top: 10px;
   padding: 30px;
   align-items: start;
-
 }
 
 .news-text a {
@@ -181,8 +180,6 @@
   cursor: pointer;
   background: var(--background-gray);
 }
-
-
 
 /*********************************************** professional */
 .professional-container {
@@ -504,7 +501,17 @@
 
 /*********************************************** media Ipad Air 1180px */
 @media(max-width: 1180px) {
-  
+
+  .navbar-nav-right li {
+    font-size: 12px;
+  }
+
+  .news-container h2,
+  .news-container .news-btn {
+    margin-top: 15px;
+  }
+
+   
   /************************ showcase */
   .showcase-container {
     height: 400px;
@@ -616,9 +623,6 @@
   }
 
   /************************ news */
-  .news-container {
-    height: 580px;
-  }
 
   .news-grid {
     grid-template-columns: 1fr;
@@ -690,6 +694,7 @@
 
 /*********************************************** media iphone 12 pro 390px */
 @media(max-width: 820px) {
+
   .menu-btn {
     display: block;
   }
@@ -771,7 +776,7 @@
 
   /************************ news */
   .news-container {
-    height: 850px;
+    height: 900px;
   }
 
   .news-grid {
